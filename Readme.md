@@ -34,7 +34,7 @@ cd auction-app
 Backend (Laravel API)
 
 
-cd backend
+cd auction-house-backend
 cp .env.example .env
 php artisan key:generate
 composer install
@@ -47,6 +47,6 @@ Frontend (React)
 bash
 Copy
 Edit
-cd ../frontend
+cd ../auction-house-frontend
 npm install
 npm run dev
